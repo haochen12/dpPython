@@ -26,6 +26,33 @@ def load_mnist(path, kind='train'):
     return images, labels
 
 
-mnist = load_mnist('data')
+mnist, lable = load_mnist('data')
 
-print(mnist[0][:, 1])
+# print(np.shape(mnist))
+# print(np.shape(lable)[0])
+
+# # print(lable)
+import tensorflow as tf
+
+X = tf.placeholder(tf.float32, [None, 784], "X")
+Y = tf.placeholder(tf.float32, [None, 10], "Y")
+
+# 定义模型参数
+W = tf.Variable(tf.random_normal([784, 10]))
+b = tf.Variable(tf.zeros([10, ]))
+
+output = tf.nn.xw_plus_b(X, W, b)
+
+# prob = tf.nn.softmax(output)
+#
+# loss = tf.square(Y - output)
+#
+# optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.001).minimize(loss)
+
+with tf.Session() as sess:
+    print(sess.run(output))
+    # for i in range(10):
+    for x, y in zip(mnist, lable):
+        print(sess.run(output, feed_dict={X: x, Y: y}))
+# w_out, b_out = sess.run([W, b])
+# print(b_out)
