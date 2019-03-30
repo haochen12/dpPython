@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48da394-25f6-4027-988d-5b7cdbd8b4ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Crawler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meachinglearning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedisTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meachinglearning/constitute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meachinglearning/timg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScrapyTestV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crawler/ScrapyTestV1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/meachinglearning/TFTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_lr.py" beforeDir="false" afterPath="$PROJECT_DIR$/meachinglearning/Test_lr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/meachinglearning/load_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/losgstic regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/meachinglearning/losgstic regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_status_scrawer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crawler/weather_status_scrawer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/meachinglearning/word_cloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crawler/ScrapyTestV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crawler/DouBanScrapyTestV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crawler/weather_status_scrawer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crawler/weather_status_scrawer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meachinglearning/word_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/meachinglearning/word_cloud.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meachinglearning/load_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
+            <state relative-caret-position="864">
               <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -33,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meachinglearning/TFTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+            <state relative-caret-position="1215">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding>
                 <element signature="e#294#331#0" expanded="true" />
               </folding>
@@ -48,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meachinglearning/losgstic regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="297">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meachinglearning/word_cloud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="351">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -70,34 +69,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meachinglearning/LSTM_TEst.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meachinglearning/Test_lr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="729">
               <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Crawler/ScrapyTestV1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Crawler/weather_status_scrawer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -117,6 +107,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -133,12 +124,17 @@
         <option value="$PROJECT_DIR$/ScrapyTestV1.py" />
         <option value="$PROJECT_DIR$/word_cloud.py" />
         <option value="$PROJECT_DIR$/../tutorial/tutorial/items.py" />
+        <option value="$PROJECT_DIR$/Crawler/weather_status_scrawer.py" />
+        <option value="$PROJECT_DIR$/RedisTest.py" />
+        <option value="$PROJECT_DIR$/meachinglearning/constitute.txt" />
+        <option value="$PROJECT_DIR$/meachinglearning/word_cloud.py" />
+        <option value="$PROJECT_DIR$/meachinglearning/LSTM_TEst.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="191" />
-    <option name="y" value="-8" />
+    <option name="x" value="197" />
+    <option name="y" value="148" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -158,6 +154,11 @@
             </path>
             <path>
               <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="meachinglearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -167,17 +168,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/git-cmd.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\meachinglearning" />
+      <recent name="E:\pythonProject\data" />
+      <recent name="E:\pythonProject" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\pythonProject\meachinglearning" />
       <recent name="E:\pythonProject\Crawler" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\pythonProject\data" />
-      <recent name="E:\pythonProject" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,7 +194,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.word_cloud">
+  <component name="RunManager" selected="Python.word_cloud (1)">
+    <configuration name="DouBanScrapyTestV1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawler/DouBanScrapyTestV1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ScrapyTestV1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,7 +228,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\pythonProject\Crawler\ScrapyTestV1.py" />
+      <option name="SCRIPT_NAME" value="E:\pythonProject\Crawler\DouBanScrapyTestV1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_lr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word_cloud (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,32 +287,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\pythonProject\meachinglearning\Test_lr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="losgstic regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\pythonProject\meachinglearning\losgstic regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meachinglearning/word_cloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,19 +323,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Test" />
-      <item itemvalue="Python.losgstic regression" />
       <item itemvalue="Python.ScrapyTestV1" />
       <item itemvalue="Python.TFTest" />
-      <item itemvalue="Python.Test_lr" />
       <item itemvalue="Python.word_cloud" />
+      <item itemvalue="Python.DouBanScrapyTestV1" />
+      <item itemvalue="Python.word_cloud (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.word_cloud (1)" />
+        <item itemvalue="Python.DouBanScrapyTestV1" />
         <item itemvalue="Python.word_cloud" />
         <item itemvalue="Python.ScrapyTestV1" />
         <item itemvalue="Python.TFTest" />
-        <item itemvalue="Python.losgstic regression" />
-        <item itemvalue="Python.Test_lr" />
       </list>
     </recent_temporary>
   </component>
@@ -509,27 +511,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/wordcloud/wordcloud.py">
+    <entry file="file://$PROJECT_DIR$/Crawler/DouBanScrapyTestV1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="573" column="19" selection-start-line="573" selection-start-column="19" selection-end-line="573" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meachinglearning/word_cloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/ScrapyTestV1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="197">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -538,24 +523,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Crawler/weather_status_scrawer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meachinglearning/losgstic regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="351">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RedisTest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/wordcloud/wordcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="589" column="27" selection-start-line="589" selection-start-column="23" selection-end-line="589" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meachinglearning/constitute.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meachinglearning/timg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/meachinglearning/load_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
+        <state relative-caret-position="864">
           <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -563,9 +561,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/meachinglearning/TFTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="e#294#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meachinglearning/losgstic regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meachinglearning/Test_lr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="729">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -573,12 +591,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meachinglearning/TFTest.py">
+    <entry file="file://$PROJECT_DIR$/meachinglearning/LSTM_TEst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#294#331#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meachinglearning/word_cloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

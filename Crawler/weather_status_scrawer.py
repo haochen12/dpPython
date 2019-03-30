@@ -1,6 +1,5 @@
-import requests
-
 import lxml.html
+import requests
 
 url = 'https://blog.csdn.net/itachi85/article/details/50773358'
 
@@ -19,6 +18,7 @@ def parse_html():
     # print(root.xpath('//*[@id="content"]/div[class="api_month_list"]/[tag="text"'))
     print(root.xpath('//*[@id="asideProfile"]/div[2]/dl/dt/text()'))
     print(root.xpath('//*[@id="asideProfile"]/div[@class="data-info d-flex item-tiling"]'))
+
 
 def get_weather_conditions():
     print("skjfldkjldkfjslkdjf")
