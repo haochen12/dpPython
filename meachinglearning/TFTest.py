@@ -1,71 +1,47 @@
-# -*- coding: utf-8 -*-
-'''
-A logistic regression learning algorithm example using TensorFlow library.
-This example is using the MNIST database of handwritten digits
-(http://yann.lecun.com/exdb/mnist/)
+from sklearn.datasets import make_circles
+from tensorflow.keras.layers import Dense, BatchNormalization, GaussianNoise
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.callbacks import EarlyStopping
+from matplotlib import pyplot
 
-Author: Aymeric Damien
-Project: https://github.com/aymericdamien/TensorFlow-Examples/
-'''
+X, y = make_circles(n_samples=1000, noise=0.1, random_state=1)
+# print(X, y)
+n_train = 500
+trainX, testX = X[:n_train, :], X[n_train:, :]
+trainy, testy = y[:n_train], y[n_train:]
 
-from __future__ import print_function
+model = Sequential()
+model.add(Dense(50, input_dim=2, activation="relu", kernel_regularizer=l2(0.01)))
+model.add(BatchNormalization())
+# model.add(GaussianNoise(stddev=0.01))
+model.add(Dense(1, activation="sigmoid"))
+opt = SGD(lr=.01, momentum=0.9)
+model.compile(loss="binary_crossentropy", optimizer=opt, metrics=['accuracy'])
+es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=200)
+history = model.fit(trainX,
+                    trainy,
+                    validation_data=(testX, testy),
+                    epochs=1000,
+                    batch_size=len(trainX),
+                    verbose=1, callbacks=[es])
 
-import tensorflow as tf
+_, train_acc = model.evaluate(trainX, trainy, verbose=1)
+_, test_acc = model.evaluate(testX, testy, verbose=1)
+print('Train: %.3f, Test: %.3f' % (train_acc, test_acc))
 
-# Import MNIST data(下载数据)
-from tensorflow.examples.tutorials.mnist import input_data
-
-mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
-
-# 参数：学习率，训练次数，
-learning_rate = 0.01
-training_epochs = 25
-batch_size = 100
-display_step = 1
-
-# tf Graph Input
-x = tf.placeholder(tf.float32, [None, 784])  # mnist data image of shape 28*28=784
-y = tf.placeholder(tf.float32, [None, 10])  # 0-9 digits recognition => 10 classes
-
-# Set model weights
-W = tf.Variable(tf.zeros([784, 10]))
-b = tf.Variable(tf.zeros([10]))
-
-# softmax模型
-pred = tf.nn.softmax(tf.matmul(x, W) + b)  # Softmax
-
-# Minimize error using cross entropy（损失函数用cross entropy）
-cost = tf.reduce_mean(-tf.reduce_sum(y * tf.log(pred), reduction_indices=1))
-# Gradient Descent（梯度下降优化）
-optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)
-
-# Initializing the variables
-init = tf.global_variables_initializer()
-
-# Launch the graph
-with tf.Session() as sess:
-    sess.run(init)
-
-    # Training cycle
-    for epoch in range(training_epochs):
-        avg_cost = 0.
-        total_batch = int(mnist.train.num_examples / batch_size)
-        # Loop over all batches
-        for i in range(total_batch):
-            batch_xs, batch_ys = mnist.train.next_batch(batch_size)
-            # Run optimization op (backprop) and cost op (to get loss value)
-            _, c = sess.run([optimizer, cost], feed_dict={x: batch_xs,
-                                                          y: batch_ys})
-            # Compute average loss
-            avg_cost += c / total_batch
-        # Display logs per epoch step
-        if (epoch + 1) % display_step == 0:
-            print("Epoch:", '%04d' % (epoch + 1), "cost=", "{:.9f}".format(avg_cost))
-
-    print("Optimization Finished!")
-
-    # Test model
-    correct_prediction = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))
-    # Calculate accuracy
-    accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-    print("Accuracy:", accuracy.eval({x: mnist.test.images, y: mnist.test.labels}))
+pyplot.subplot(211)
+pyplot.title('Cross-Entropy Loss', pad=-40)
+pyplot.plot(history.history['loss'], label='train')
+pyplot.plot(history.history['val_loss'], label='test')
+pyplot.legend()
+pyplot.grid()
+# plot accuracy learning curves
+pyplot.subplot(212)
+pyplot.title('Accuracy', pad=-40)
+pyplot.plot(history.history['accuracy'], label='train')
+pyplot.plot(history.history['val_accuracy'], label='test')
+pyplot.legend()
+pyplot.grid()
+pyplot.show()

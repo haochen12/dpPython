@@ -1,58 +1,30 @@
-import os
-import struct
 import numpy as np
 
-
-def load_mnist(path, kind='train'):
-    """Load MNIST data from `path`"""
-    labels_path = os.path.join(path,
-                               '%s-labels.idx1-ubyte'
-                               % kind)
-    images_path = os.path.join(path,
-                               '%s-images.idx3-ubyte'
-                               % kind)
-    with open(labels_path, 'rb') as lbpath:
-        magic, n = struct.unpack('>II',
-                                 lbpath.read(8))
-        labels = np.fromfile(lbpath,
-                             dtype=np.uint8)
-
-    with open(images_path, 'rb') as imgpath:
-        magic, num, rows, cols = struct.unpack('>IIII',
-                                               imgpath.read(16))
-        images = np.fromfile(imgpath,
-                             dtype=np.uint8).reshape(len(labels), 784)
-
-    return images, labels
+matrix1 = np.asanyarray(
+    [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15], [16, 17, 18, 19, 20], [21, 22, 23, 24, 25]])
+print(matrix1)
+matrix2 = np.asanyarray([[1, 0, 1], [1, 0, 1], [1, 0, 1]])
 
 
-mnist, lable = load_mnist('data')
+# print(matrix2)
 
-# print(np.shape(mnist))
-# print(np.shape(lable)[0])
 
-# # print(lable)
-import tensorflow as tf
+def get_patch(m, kernel_size, stride=1):
+    m_len = len(m)
 
-X = tf.placeholder(tf.float32, [None, 784], "X")
-Y = tf.placeholder(tf.float32, [None, 10], "Y")
+    length = m_len - kernel_size + 1
+    if stride >= length:
+        print('步长过长')
+        ValueError('步长过长')
+        return
+    for row in range(0, length, stride):  # 按行遍历
+        for column in range(0, length, stride):  # 按列遍历
+            for j in range(row, length + row, 1):
+                for k in range(column, length + column, 1):
+                    print(m[j][k], end=' ')
+                print()
+            print('****************')
+        print('----------------')
 
-# 定义模型参数
-W = tf.Variable(tf.random_normal([784, 10]))
-b = tf.Variable(tf.zeros([10, ]))
 
-output = tf.nn.xw_plus_b(X, W, b)
-
-# prob = tf.nn.softmax(output)
-#
-# loss = tf.square(Y - output)
-#
-# optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.001).minimize(loss)
-
-with tf.Session() as sess:
-    print(sess.run(output))
-    # for i in range(10):
-    for x, y in zip(mnist, lable):
-        print(sess.run(output, feed_dict={X: x, Y: y}))
-# w_out, b_out = sess.run([W, b])
-# print(b_out)
+get_patch(matrix1, 3, 1)

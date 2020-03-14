@@ -1,31 +1,31 @@
 import tensorflow as tf
 import numpy as np
 
-# 数据集
-x_data = np.float32(np.random.rand(2, 100))  # 生成一个2*100 维的数据矩阵
-y_data = np.dot([0.100, 0.200], x_data) + 0.3  # 生成一个1 *100的数据
+import matplotlib.pyplot as plt
 
-# 输入变量
-input_x = tf.placeholder(tf.float32, [2, 100])
-output_y = tf.placeholder(tf.float32, [100])
+image = np.array([[[0, 0, 0, 0, 0, 0, 0],
+                   [0, 1, 0, 1, 2, 1, 0],
+                   [0, 0, 2, 2, 0, 1, 0],
+                   [0, 1, 1, 0, 2, 1, 0],
+                   [0, 0, 2, 1, 1, 0, 0],
+                   [0, 2, 1, 1, 2, 0, 0],
+                   [0, 0, 0, 0, 0, 0, 0]]], dtype=np.float32)
 
-# 构建一个线性模型
+image = np.expand_dims(image, axis=-1)
 
-b = tf.Variable(tf.zeros([1]))
-W = tf.Variable(tf.random_uniform([1, 2]))
-predict_y = tf.matmul(W, input_x) + b
+W = np.array([[[0, 0, -1],
+               [0, 1, 0],
+               [-2, 0, 2]]], dtype=np.float32)
 
-# 最小化方差
-loss = tf.reduce_mean(tf.square(output_y - predict_y))
-optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.2).minimize(loss)
+b = np.array([1], dtype=np.float32)
 
-# 初始化变量
-init = tf.global_variables_initializer()
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Conv2D(
+        filters=1,
+        kernel_size=[3, 3],
+        kernel_initializer=tf.constant_initializer(W),
+        bias_regularizer=tf.constant_initializer(b)
+    )
+])
 
-# 拟合平面
-with tf.Session() as sess:
-    sess.run(init)
-    for i in range(2000):
-        sess.run(optimizer, feed_dict={input_x: x_data, output_y: y_data})
-        if i % 20 == 0:
-            print(i, sess.run(W), sess.run(b))
+print(tf.squeeze(model(image)))

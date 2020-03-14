@@ -1,13 +1,29 @@
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import numpy as np
-from PIL import Image
-from os import path
+import socket
 
-d = path.dirname(__file__)
-text = open(path.join(d, "constitute.txt")).read()
-alice_mask = np.array(Image.open(path.join(d, "timg.png")))
-word_cloud = WordCloud(background_color='White', max_font_size=66, mask=alice_mask).generate(text)
-plt.imshow(word_cloud, interpolation='bilinear')
-plt.axis('off')
-plt.show()
+BUFSIZE = 4096
+tcpServerSocket = socket.socket()  # 1.创建
+hostip = '192.168.0.102'
+port = 9999
+tcpServerSocket.bind((hostip, port))  # 2.bind
+tcpServerSocket.listen(5)  # 监听，设置等待队列最大数目
+result = b''
+i = 0
+
+while True:
+    print("等待连接")
+    clientSocket, addr = tcpServerSocket.accept()  # 3.接收连接请求，并获得ip和端口号
+    while True:
+        data = clientSocket.recv(BUFSIZE)  # 4.接收数据
+        result += data
+        if not data:
+            print("break")
+            break
+
+        if not data:
+            with open("test.jpg", "wb") as f:
+                f.write(result)
+                print("complete")
+
+        s = "hello"
+        clientSocket.send(s.encode())  # 5.发送数据
+    clientSocket.close()
