@@ -28,8 +28,8 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/meachinglearning/tutorial" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1P3AGv5rmu1B75DG5rYjdkpqQzO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -378,6 +378,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586959480959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586959480959" />
     <state x="715" y="225" key="#xdebugger.evaluate" timestamp="1584069155106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

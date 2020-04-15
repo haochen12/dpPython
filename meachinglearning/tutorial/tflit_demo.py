@@ -1,6 +1,6 @@
 import tensorflow as tf
 import pathlib
-import matplotlib.pyplot as plt;
+import matplotlib.pyplot as plt
 
 # 创建一个简单的 Keras 模型。
 x = [-1, 0, 1, 2, 3, 4]
