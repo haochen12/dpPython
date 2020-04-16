@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 
 # load data
 
-data_frame = read_csv("E:/pythonProject/meachinglearning/tutorial/data/housing.csv", delim_whitespace=True, header=None)
+data_frame = read_csv("/meachinglearning/translate_tutorial/data/housing.csv", delim_whitespace=True, header=None)
 dataset = data_frame.values
 
 # split data into input(X) and output(Y)
