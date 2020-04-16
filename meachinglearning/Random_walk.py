@@ -19,7 +19,7 @@ client.connect(("192.168.0.102", 9999))
 # 根据请求头来发送请求信息
 client.send(http_req)
 # 建立一个二进制对象用来存储我们得到的数据
-result = b''
+result = zi
 i = 0
 # 得到响应数据
 while True:
