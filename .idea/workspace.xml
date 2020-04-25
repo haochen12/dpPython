@@ -28,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/meachinglearning/tutorial" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1P3AGv5rmu1B75DG5rYjdkpqQzO" />
@@ -46,17 +46,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\pythonProject\meachinglearning\tutorial\data" />
-      <recent name="E:\pythonProject\meachinglearning" />
-      <recent name="E:\pythonProject\Crawler" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\pythonProject\meachinglearning\tutorial\data" />
       <recent name="E:\pythonProject\meachinglearning\tutorial" />
       <recent name="E:\pythonProject\data" />
       <recent name="E:\pythonProject\meachinglearning" />
       <recent name="E:\pythonProject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dpPython\meachinglearning\tutorial" />
+      <recent name="E:\pythonProject\meachinglearning\tutorial\data" />
+      <recent name="E:\pythonProject\meachinglearning" />
+      <recent name="E:\pythonProject\Crawler" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ch20-4 (1)">
@@ -170,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch-20-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ch20-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,29 +184,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\dpPython\meachinglearning\tutorial\ch-20-1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch-20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning/tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meachinglearning/tutorial/ch-20.py" />
+      <option name="SCRIPT_NAME" value="E:\dpPython\meachinglearning\tutorial\ch20-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,6 +231,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ch20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning/tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\dpPython\meachinglearning\tutorial\ch20.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="load_data" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,17 +281,17 @@
       <item itemvalue="Python.Test_lr" />
       <item itemvalue="Python.load_data" />
       <item itemvalue="Python.DouBanScrapyTestV1" />
-      <item itemvalue="Python.ch-20" />
-      <item itemvalue="Python.ch-20-1" />
       <item itemvalue="Python.ch20-4" />
       <item itemvalue="Python.ch20-4 (1)" />
+      <item itemvalue="Python.ch20" />
+      <item itemvalue="Python.ch20-1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ch20-4 (1)" />
         <item itemvalue="Python.ch20-4" />
-        <item itemvalue="Python.ch-20-1" />
-        <item itemvalue="Python.ch-20" />
+        <item itemvalue="Python.ch20-1" />
+        <item itemvalue="Python.ch20" />
         <item itemvalue="Python.DouBanScrapyTestV1" />
       </list>
     </recent_temporary>
