@@ -28,8 +28,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/meachinglearning/tutorial" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1P3AGv5rmu1B75DG5rYjdkpqQzO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,15 +42,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/meachinglearning" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\myworkspace\TensorFlowLite" />
+      <recent name="E:\pythonProject\meachinglearning" />
+      <recent name="E:\pythonProject\meachinglearning\tutorial\data" />
+      <recent name="E:\pythonProject\Crawler" />
+    </key>
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\meachinglearning" />
       <recent name="E:\pythonProject\meachinglearning\tutorial\data" />
       <recent name="E:\pythonProject\meachinglearning\tutorial" />
       <recent name="E:\pythonProject\data" />
-      <recent name="E:\pythonProject\meachinglearning" />
       <recent name="E:\pythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -60,8 +69,13 @@
       <recent name="E:\pythonProject\Crawler" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.ch20-4 (1)">
     <configuration name="DouBanScrapyTestV1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.ch21">
+    <configuration name="TFTest" type="PythonConfigurationType" factoryName="Python">
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,29 +88,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawler/DouBanScrapyTestV1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TFTest" type="PythonConfigurationType" factoryName="Python">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meachinglearning/TFTest.py" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,51 +167,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ch20-3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myworkspace/translate_tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myworkspace/translate_tutorial/ch20-3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
     <configuration name="ch20-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\dpPython\meachinglearning\tutorial\ch20-1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch20-4 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning/tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meachinglearning/tutorial/ch20-4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+=======
     <configuration name="ch20-4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,12 +201,77 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myworkspace/translate_tutorial" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="E:\dpPython\meachinglearning\tutorial\ch20-1.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myworkspace/translate_tutorial/ch20-4.py" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="ch20-4 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="ch21" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myworkspace/translate_tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meachinglearning/tutorial/ch20-4.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myworkspace/translate_tutorial/ch21.py" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="ch20-4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="digit_regnition_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myworkspace/TensorFlowLite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="E:\dpPython\meachinglearning\tutorial\ch20-4.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myworkspace/TensorFlowLite/digit_regnition_task.py" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,7 +302,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="load_data" type="PythonConfigurationType" factoryName="Python">
+=======
+    <configuration name="tflit_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,12 +314,16 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meachinglearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myworkspace/TensorFlowLite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meachinglearning/load_data.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myworkspace/TensorFlowLite/tflit_demo.py" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,6 +337,7 @@
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.Test_lr" />
       <item itemvalue="Python.load_data" />
+<<<<<<< HEAD
       <item itemvalue="Python.DouBanScrapyTestV1" />
       <item itemvalue="Python.ch20-4" />
       <item itemvalue="Python.ch20-4 (1)" />
@@ -299,6 +351,21 @@
         <item itemvalue="Python.ch20-1" />
         <item itemvalue="Python.ch20" />
         <item itemvalue="Python.DouBanScrapyTestV1" />
+=======
+      <item itemvalue="Python.ch20-3" />
+      <item itemvalue="Python.ch20-4" />
+      <item itemvalue="Python.digit_regnition_task" />
+      <item itemvalue="Python.tflit_demo" />
+      <item itemvalue="Python.ch21" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ch21" />
+        <item itemvalue="Python.ch20-4" />
+        <item itemvalue="Python.ch20-3" />
+        <item itemvalue="Python.tflit_demo" />
+        <item itemvalue="Python.digit_regnition_task" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
       </list>
     </recent_temporary>
   </component>
@@ -379,57 +446,74 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586959480959">
+    <state x="689" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584795949050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586959480959" />
-    <state x="715" y="225" key="#xdebugger.evaluate" timestamp="1584069155106">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="689" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584795949050" />
+    <state x="2560" y="168" key="#xdebugger.evaluate" timestamp="1586314445495">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2560" y="168" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586314445495" />
     <state x="715" y="225" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1584069155106" />
     <state width="653" height="466" key="DebuggerActiveHint" timestamp="1584069209686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="653" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1584069209686" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1584070896395">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1586998836801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583218307444" />
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586998836801" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999356" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896395" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1584070896395">
+    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1586998836800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583218307444" />
+    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586998836800" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999356" />
     <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896395" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1584070896394">
+    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1586998836800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583218307444" />
+    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586998836800" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999355" />
     <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896394" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1584070896395">
+    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1586998836801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583218307444" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586998836801" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999356" />
     <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896395" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1584070896395">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1586315999356">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999356" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896395" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1584070896395">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1586315999356">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999356" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896395" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1584070896395">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1586315999356">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999356" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896395" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1584070896395">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1586315999356">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586315999356" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584070896395" />
-    <state width="968" height="527" key="XDebugger.FullValuePopup" timestamp="1584068055870">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="968" height="527" key="XDebugger.FullValuePopup" timestamp="1585115287044">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="968" height="527" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585115287044" />
     <state width="968" height="527" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1584068055870" />
+<<<<<<< HEAD
+=======
+    <state x="2585" y="322" key="git4idea.merge.GitPullDialog" timestamp="1587957956635">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2585" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587957956635" />
+>>>>>>> ec99a11c2506810478b8fd9c3b6ccd0401e750c1
   </component>
 </project>

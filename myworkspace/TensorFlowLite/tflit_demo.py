@@ -14,8 +14,10 @@ model.fit(x, y, epochs=500, verbose=0)
 model.summary()
 result = model.predict([1, 3, 7])
 
-print(result)
-# plt.plot([1, 3, 7], result)
+# print(result)
+plt.plot(x,y)
+plt.plot([1, 3, 7], result)
+# plt.scatter(x,y)
 # plt.show()
 
 # export_dir = 'saved_model/test'

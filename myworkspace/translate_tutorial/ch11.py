@@ -13,7 +13,7 @@ seed = 7
 numpy.random.seed(seed)
 
 # load dataset
-dataframe = read_csv("E:/pythonProject/meachinglearning/tutorial/data/sonar.csv", header=None)
+dataframe = read_csv("/meachinglearning/translate_tutorial/data/sonar.csv", header=None)
 datasets = dataframe.values
 # print(datasets)
 
