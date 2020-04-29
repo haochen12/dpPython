@@ -1,5 +1,5 @@
 import Crawler.DouBanScrapyTestV1 as test
-# import Crawler.DBManager as dbTEst
+import Crawler.DBManager as dbTEst
 from lxml import etree
 
 commits_url = 'https://movie.douban.com/subject/1292052/comments?start=60&limit=20&sort=new_score&status=P'
