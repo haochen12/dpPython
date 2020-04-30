@@ -1,6 +1,6 @@
 # encoding:utf-8
 
-# three layer neural network
+# three layer neural VirtualMic
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
