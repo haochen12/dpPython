@@ -13,7 +13,9 @@ class QRCodeGenerate():
         img = qr.make_image()
         # img.show()
         # img.drawrect(10,10)
-        img.save('test.jpg')
+        # img.save('test.jpg')
+        img.get_image()
+        return img
 
 
 if __name__ == "__main__":

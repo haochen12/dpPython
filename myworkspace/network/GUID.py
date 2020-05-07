@@ -31,19 +31,20 @@ class VirtualMicWindow(QWidget):
 
         self.connect_status_alabel.move(15, 110)
         self.connect_status_alabel.setFont(qfont)
-        pixlmap = QPixmap("test.jpg")
-        self.qr_alabel.move(self.win_width - pixlmap.width(), (self.win_height - pixlmap.height()) / 2)
-        print(pixlmap.height())
-        self.qr_alabel.setPixmap(pixlmap)
+
         self.setGeometry(400, 400, self.win_width, self.win_height)
         self.setWindowTitle('虚拟麦克风')
         self.show()
 
     def update_data(self):
-        # q = qcode.QRCodeGenerate()
-        # q.generate_qr_code()
-
-        return
+        q = qcode.QRCodeGenerate()
+        q.generate_qr_code()
+        self.connect_status_alabel.setText("test")
+        pixlmap = QPixmap("test.jpg")
+        self.qr_alabel.move(self.win_width - pixlmap.width(), (self.win_height - pixlmap.height()) / 2)
+        print(pixlmap.height())
+        self.qr_alabel.setPixmap(pixlmap)
+        self.update()
 
 
 if __name__ == '__main__':

@@ -6,8 +6,10 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-source_url = 'http://movie.douban.com/top250/'
+# source_url = 'http://movie.douban.com/top250/'
 url_form = 'http://movie.douban.com/top250/%s'
+
+source_url = "https://news.ifeng.com/c/special/7uLj4F83Cqm"
 
 all_item1 = []
 
@@ -15,9 +17,11 @@ all_item1 = []
 # 获取网页内容
 def get_html(url):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36'
-    }
-    return rq.get(url, headers).content
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"}
+
+    src_html = rq.get(url, headers).content
+    print("source html", src_html)
+    return src_html
 
 
 def parse_page(content):
@@ -71,7 +75,9 @@ def parse_item(content):
 
 
 def main():
-    parse_item(get_html(source_url))
+    html_content = get_html(source_url)
+
+    parse_item(html_content)
     page_list = parse_page(get_html(source_url))
     for i in page_list:
         url = url_form % i
