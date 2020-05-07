@@ -4,7 +4,7 @@
 import sys
 from PyQt5.QtWidgets import QWidget, QLabel, QApplication
 from PyQt5.QtGui import QPixmap, QFont, QPicture
-import myworkspace.network.QRCode as qcode
+import myworkspace.VirtualMic.QRCode as qcode
 
 
 class VirtualMicWindow(QWidget):
