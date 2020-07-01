@@ -8,7 +8,6 @@ import json
 
 url = "https://voice.baidu.com/act/newpneumonia/newpneumonia"
 
-
 # 获取网页内容
 def get_html(url):
     headers = {
@@ -40,5 +39,6 @@ for str in parse_page(get_html(url)):
               objts["curConfirm"],
               objts["area"])
 
-# for j in component:
-#     print(j)
+    for oj in component[0]["globalList"]:
+        print(oj)
+
